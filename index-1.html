@@ -334,36 +334,36 @@
 <script>
 const kits = [
   // LA LIGA
-  { name:"Real Madrid", liga:"laliga", season:"2024/25 · Local", price:25, emoji:"⚪", sizes:["S","M","L","XL","XXL"], badge:"popular", desc:"Camiseta local del Real Madrid temporada 2024/25. También disponible visitante y tercera equipación." },
-  { name:"FC Barcelona", liga:"laliga", season:"2024/25 · Local", price:25, emoji:"🔵", sizes:["S","M","L","XL","XXL"], badge:"popular", desc:"Camiseta local del Barça 2024/25. Disponible también visitante. Una de las más pedidas." },
-  { name:"Atlético de Madrid", liga:"laliga", season:"2024/25 · Local", price:23, emoji:"🔴", sizes:["S","M","L","XL"], badge:"", desc:"Camiseta local del Atleti 2024/25. Rayas rojas y blancas icónicas. También visitante disponible." },
-  { name:"Sevilla FC", liga:"laliga", season:"2024/25 · Local", price:22, emoji:"⚪", sizes:["S","M","L","XL"], badge:"", desc:"Camiseta local del Sevilla 2024/25. Clásica en blanco. Disponible local y visitante." },
+  { name:"Real Madrid", liga:"laliga", season:"2025/26 · Local", price:25, emoji:"⚪", sizes:["S","M","L","XL","XXL"], badge:"popular", desc:"Camiseta local del Real Madrid temporada 2025/26. También disponible visitante y tercera equipación." },
+  { name:"FC Barcelona", liga:"laliga", season:"2025/26 · Local", price:25, emoji:"🔵", sizes:["S","M","L","XL","XXL"], badge:"popular", desc:"Camiseta local del Barça 2025/26. Disponible también visitante. Una de las más pedidas." },
+  { name:"Atlético de Madrid", liga:"laliga", season:"2025/26 · Local", price:24, emoji:"🔴", sizes:["S","M","L","XL"], badge:"", desc:"Camiseta local del Atleti 2025/26. Rayas rojas y blancas icónicas. También visitante disponible." },
+  { name:"Sevilla FC", liga:"laliga", season:"2025/26 · Local", price:24, emoji:"⚪", sizes:["S","M","L","XL"], badge:"", desc:"Camiseta local del Sevilla 2025/26. Clásica en blanco. Disponible local y visitante." },
   // PREMIER
-  { name:"Manchester City", liga:"premier", season:"2024/25 · Local", price:25, emoji:"🩵", sizes:["S","M","L","XL","XXL"], badge:"nuevo", desc:"Camiseta celeste del City 2024/25. También disponible visitante y tercera." },
-  { name:"Arsenal", liga:"premier", season:"2024/25 · Local", price:24, emoji:"🔴", sizes:["S","M","L","XL"], badge:"", desc:"Camiseta roja de los Gunners 2024/25. Diseño limpio y moderno." },
-  { name:"Liverpool", liga:"premier", season:"2024/25 · Local", price:24, emoji:"❤️", sizes:["S","M","L","XL","XXL"], badge:"popular", desc:"Camiseta roja del Liverpool 2024/25. Una de las más vendidas de la temporada." },
-  { name:"Chelsea", liga:"premier", season:"2024/25 · Local", price:24, emoji:"💙", sizes:["S","M","L","XL"], badge:"", desc:"Camiseta azul del Chelsea 2024/25. También disponible visitante en blanco." },
+  { name:"Manchester City", liga:"premier", season:"2025/26 · Local", price:25, emoji:"🩵", sizes:["S","M","L","XL","XXL"], badge:"nuevo", desc:"Camiseta celeste del City 2025/26. También disponible visitante y tercera." },
+  { name:"Arsenal", liga:"premier", season:"2025/26 · Local", price:25, emoji:"🔴", sizes:["S","M","L","XL"], badge:"", desc:"Camiseta roja de los Gunners 2025/26. Diseño limpio y moderno." },
+  { name:"Liverpool", liga:"premier", season:"2025/26 · Local", price:25, emoji:"❤️", sizes:["S","M","L","XL","XXL"], badge:"popular", desc:"Camiseta roja del Liverpool 2025/26. Una de las más vendidas de la temporada." },
+  { name:"Chelsea", liga:"premier", season:"2025/26 · Local", price:25, emoji:"💙", sizes:["S","M","L","XL"], badge:"", desc:"Camiseta azul del Chelsea 2025/26." },
   // SERIE A
-  { name:"Juventus", liga:"serieA", season:"2024/25 · Local", price:23, emoji:"⚫", sizes:["S","M","L","XL","XXL"], badge:"", desc:"La Vecchia Signora 2024/25. Clásico blanco y negro de rayas verticales." },
-  { name:"Inter de Milán", liga:"serieA", season:"2024/25 · Local", price:23, emoji:"🔵", sizes:["S","M","L","XL"], badge:"", desc:"Camiseta nerazzurri del Inter 2024/25. Rayas azul y negras icónicas." },
-  { name:"AC Milan", liga:"serieA", season:"2024/25 · Local", price:23, emoji:"🔴", sizes:["S","M","L","XL"], badge:"", desc:"Camiseta rossonera del Milan 2024/25. Rayas rojas y negras clásicas." },
+  { name:"Juventus", liga:"serieA", season:"2025/26 · Local", price:25, emoji:"⚫", sizes:["S","M","L","XL","XXL"], badge:"", desc:"La Vecchia Signora 2025/26. Clásico blanco y negro de rayas verticales." },
+  { name:"Inter de Milán", liga:"serieA", season:"2025/26 · Local", price:25, emoji:"🔵", sizes:["S","M","L","XL"], badge:"", desc:"Camiseta nerazzurri del Inter 2025/26. Rayas azul y negras icónicas." },
+  { name:"AC Milan", liga:"serieA", season:"2025/26 · Local", price:25, emoji:"🔴", sizes:["S","M","L","XL"], badge:"", desc:"Camiseta rossonera del Milan 2025/26. Rayas rojas y negras clásicas." },
   // LIGUE 1
-  { name:"PSG", liga:"ligue1", season:"2024/25 · Local", price:24, emoji:"🔵", sizes:["S","M","L","XL","XXL"], badge:"", desc:"Camiseta del París Saint-Germain 2024/25. Azul marino con detalles rojos. Local y visitante." },
-  { name:"Olympique de Marsella", liga:"ligue1", season:"2024/25 · Local", price:22, emoji:"⚪", sizes:["S","M","L","XL"], badge:"", desc:"La camiseta blanca del OM 2024/25. Un clásico del fútbol francés." },
+  { name:"PSG", liga:"ligue1", season:"2025/26 · Local", price:25, emoji:"🔵", sizes:["S","M","L","XL","XXL"], badge:"", desc:"Camiseta del París Saint-Germain 2025/26. Azul marino con detalles rojos. Local y visitante." },
+  { name:"Olympique de Marsella", liga:"ligue1", season:"2025/26 · Local", price:24, emoji:"⚪", sizes:["S","M","L","XL"], badge:"", desc:"La camiseta blanca del OM 2025/26. Un clásico del fútbol francés." },
   // BUNDESLIGA
-  { name:"Bayern München", liga:"bundesliga", season:"2024/25 · Local", price:24, emoji:"🔴", sizes:["S","M","L","XL","XXL"], badge:"popular", desc:"Camiseta roja del Bayern 2024/25. La más vendida de la Bundesliga." },
-  { name:"Borussia Dortmund", liga:"bundesliga", season:"2024/25 · Local", price:23, emoji:"💛", sizes:["S","M","L","XL"], badge:"", desc:"Camiseta amarilla del Dortmund 2024/25. El amarillo más reconocible del fútbol alemán." },
+  { name:"Bayern München", liga:"bundesliga", season:"2025/26 · Local", price:24, emoji:"🔴", sizes:["S","M","L","XL","XXL"], badge:"popular", desc:"Camiseta roja del Bayern 2025/26. La más vendida de la Bundesliga." },
+  { name:"Borussia Dortmund", liga:"bundesliga", season:"2025/26 · Local", price:24, emoji:"💛", sizes:["S","M","L","XL"], badge:"", desc:"Camiseta amarilla del Dortmund 2025/26. El amarillo más reconocible del fútbol alemán." },
   // SELECCIONES
-  { name:"Selección España", liga:"seleccion", season:"2024/25 · Local", price:26, emoji:"🇪🇸", sizes:["S","M","L","XL","XXL"], badge:"popular", desc:"La camiseta de los campeones de la Eurocopa 2024. Roja eterna. La más pedida ahora mismo." },
-  { name:"Selección Brasil", liga:"seleccion", season:"2024/25 · Local", price:25, emoji:"🇧🇷", sizes:["S","M","L","XL"], badge:"", desc:"El amarelo más icónico del fútbol mundial. También disponible visitante azul." },
-  { name:"Selección Argentina", liga:"seleccion", season:"2024/25 · Local", price:25, emoji:"🇦🇷", sizes:["S","M","L","XL","XXL"], badge:"", desc:"La camiseta de los campeones del mundo con la estrella de Qatar 2022." },
-  { name:"Selección Francia", liga:"seleccion", season:"2024/25 · Local", price:24, emoji:"🇫🇷", sizes:["S","M","L","XL"], badge:"", desc:"La camiseta azul de Les Bleus 2024/25. Local y visitante disponibles." },
-  { name:"Selección Portugal", liga:"seleccion", season:"2024/25 · Local", price:24, emoji:"🇵🇹", sizes:["S","M","L","XL"], badge:"", desc:"La camiseta roja de Portugal 2024/25. Una de las más pedidas entre nuestros clientes." },
+  { name:"Selección España", liga:"seleccion", season:"2025/26 · Local", price:26, emoji:"🇪🇸", sizes:["S","M","L","XL","XXL"], badge:"popular", desc:"La camiseta de los campeones de la Eurocopa 2024. Roja eterna. La más pedida ahora mismo.También disponible la visitante blanca" },
+  { name:"Selección Brasil", liga:"seleccion", season:"2025/26 · Local", price:25, emoji:"🇧🇷", sizes:["S","M","L","XL"], badge:"", desc:"El amarelo más icónico del fútbol mundial. También disponible visitante azul." },
+  { name:"Selección Argentina", liga:"seleccion", season:"2025/26 · Local", price:25, emoji:"🇦🇷", sizes:["S","M","L","XL","XXL"], badge:"", desc:"La camiseta de los campeones del mundo con la estrella de Qatar 2022." },
+  { name:"Selección Francia", liga:"seleccion", season:"2025/26· Local", price:24, emoji:"🇫🇷", sizes:["S","M","L","XL"], badge:"", desc:"La camiseta azul de Les Bleus 2025/26. Local y visitante disponibles." },
+  { name:"Selección Portugal", liga:"seleccion", season:"2025/26 · Local", price:24, emoji:"🇵🇹", sizes:["S","M","L","XL"], badge:"", desc:"La camiseta roja de Portugal 2025/26. Una de las más pedidas entre nuestros clientes.También disponible la visitante negra." },
   // RETRO
-  { name:"Brasil 1970", liga:"retro", season:"Retro · Local", price:28, emoji:"🏆", sizes:["S","M","L","XL"], badge:"retro", desc:"La camiseta del Brasil de Pelé en México 70. Una de las más icónicas de la historia del fútbol." },
-  { name:"Argentina 1986", liga:"retro", season:"Retro · Local", price:28, emoji:"🌟", sizes:["S","M","L","XL","XXL"], badge:"retro", desc:"La camiseta de Maradona en México 86. La del gol del siglo. Imprescindible en cualquier colección." },
-  { name:"AC Milan 1988/89", liga:"retro", season:"Retro · Local", price:27, emoji:"🔴", sizes:["S","M","L","XL"], badge:"retro", desc:"El Milan de Gullit y Van Basten. Una de las camisetas más valoradas por los coleccionistas." },
-  { name:"Manchester United 1999", liga:"retro", season:"Retro · Local", price:27, emoji:"❤️", sizes:["S","M","L","XL"], badge:"retro", desc:"La camiseta del triplete histórico del United. Beckham, Giggs, Scholes." },
+  { name:"Brasil 2002", liga:"retro", season:"Retro · Local", price:30, emoji:"🏆", sizes:["S","M","L","XL"], badge:"retro", desc:"La camiseta del Brasil de Ronaldo y Ronaldinho en Corea 2002. Una de las más icónicas de la historia del fútbol." },
+  { name:"Argentina 1986", liga:"retro", season:"Retro · Local", price:30, emoji:"🌟", sizes:["S","M","L","XL","XXL"], badge:"retro", desc:"La camiseta de Maradona en México 86. La del gol del siglo. Imprescindible en cualquier colección." },
+  { name:"Holanda 1988/89", liga:"retro", season:"Retro · Local", price:30, emoji:"🔴", sizes:["S","M","L","XL"], badge:"retro", desc:"La holanda de Gullit y Van Basten. Una de las camisetas más valoradas por los coleccionistas." },
+  { name:"Manchester United 1999", liga:"retro", season:"Retro · Local", price:30, emoji:"❤️", sizes:["S","M","L","XL"], badge:"retro", desc:"La camiseta del triplete histórico del United. Beckham, Giggs, Scholes." },
 ];
 
 function renderGrid(items) {
